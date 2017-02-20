@@ -1,0 +1,13 @@
+base() {
+  wp core install --url=localhost --admin_user=admin --admin_password=root --admin_email=hello@stephencreates.com --title=Docker
+  wp plugin install advanced-custom-fields
+  wp plugin activate advanced-custom-fields
+}
+
+ms() {
+  wp core multisite-convert --title=Docker-Suite
+  mv /usr/bin/ms_htaccess.txt /var/www/html/.htaccess
+}
+
+# call arguments verbatim:
+$@

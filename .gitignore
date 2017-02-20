@@ -1,0 +1,5 @@
+.DS_Store
+wordpress/wp-content/themes/*
+!wordpress/wp-content/thmes/twentyfourteen/
+!wordpress/wp-content/thmes/twentyfifteen/
+!wordpress/wp-content/thmes/twentysixteen/
