@@ -32,7 +32,6 @@ Once your WP site is running, you spin up a shell into your web container
 
 ```
 $ docker exec -it container_name bash
-
 ```
 
 Then you can do 
@@ -41,7 +40,7 @@ Then you can do
 base
 ```
 
-And it will install a base install of WP. By default it just spin things up and install the Advanced Custom Fields plugin that I use with everything. You can reference the wp-cli  
+And it will install a base install of WP. By default it just spins things up and installs the Advanced Custom Fields plugin that I use with everything. You can reference the wp-cli  
 
 http://wp-cli.org/
 
