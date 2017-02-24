@@ -1,5 +1,5 @@
 base() {
-  wp core install --url=localhost --admin_user=admin --admin_password=root --admin_email=hello@stephencreates.com --title=Docker
+  wp core install --url=localhost --admin_user=admin --admin_password=root --admin_email=EMAIL@EMAIL.com --title=Docker
   wp plugin install advanced-custom-fields
   wp plugin activate advanced-custom-fields
 }
