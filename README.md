@@ -18,7 +18,7 @@ Default reds for things are in the docker-compose.yaml file. It's local so keepi
 
 Before you get going make sure you edit the _dockerfiles/wp_bootstrap file to include your own email you want to use for your local wp install.
 
-# Starting your dev environment
+### Starting your dev environment
 
 1. Open Terminal
 2. cd to wp-ms DIR
@@ -34,7 +34,7 @@ You're good. Leave this tab running or server will crash
 
 You can now access your site at localhost
 
-# To stop you dev environment
+### To stop your dev environment
 
 1. Open another tab in Terminal
 2. cd to wp-ms DIR
